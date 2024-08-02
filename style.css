@@ -1,4 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 *{
     margin: 0;
     padding: 0;
 }
+body{
+    background-color: black;
+}
+.btn-primary{
+    color: white;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(232, 111, 111);    
+    padding: 5px 40px;
+    margin-top: 10px;
+}
+.btn-primary-2{
+    color: white;
+    border: none;
+    border-radius: 46px;
+    background: rgb(230, 83, 60);  
+    padding: 8px 20px;
+    width: 92px;
+    height: 38px;
+    font-size: 18px;
+    font-weight: 600;
+    /* padding: 5px 20px; */
+    /* margin-top: 10px; */
+}
+.btn-secondary{
+    color: white;
+    border:1px solid white;
+    border-radius: 20px;
+    background: none;    
+    padding: 5px 20px;
+    margin-top: 10px;
+}
+
+
+header{
+    width: 80%;
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+    margin: 0 auto;
+    border: 2px solid red;
+    margin-bottom: 100px;
+}
+nav{
+    border: 2px solid green;
+    height: 46px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+nav h3{
+    color: rgb(230, 83, 60);
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 800;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    gap: 47px;
+    padding: 4px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;  
+}
+
+nav ul li{
+    list-style: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    /* height: 22px; */
+}
+nav ul li:last-child{
+    width: 92px;
+    /* height: 22px; */
+    padding: 0px 20px;
+    /* border: 2px solid red; */
+
+}
+nav ul a{
+    text-decoration: none;
+    color: white;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-greetings{
+
+    /* font-family: Open Sans; */
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.banner-content{
+    color: white;
+
+}
+.banner-description{
+    color: rgb(117, 117, 117);
+/* font-family: Open Sans; */
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.shape{
+    font-family: 'Miama', sans-serif;                                              
+}
+.btn-group button{
+    margin-right: 5px;
+}
+.pc1{
+    margin-top: 48px;
+    margin-left: 2px;
+    position: relative;
+    /* height: 80%; */
+    margin: 50px auto;
+    /* padding: 30px; */
+    margin-bottom: 0;
+    left: 10%;
+    
+}
+.pc1 img{
+    width: 70%;
+    margin: 0 auto;
+    /* height: auto; */
+    /* padding: 30px; */
+}
+.views{
+    position: absolute;
+    color: beige;
+    background-color: rgba(212, 207, 207, 0.1);
+    padding: 10px;
+    border-radius: 10px;
+}
+.v1{
+    top: 80%;
+    left: 2%;
+}
+.v2{
+    top: 30%;
+    left: 50%;
+}
+
